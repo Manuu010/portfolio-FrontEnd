@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUEVO PROYECTO</title>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/27dbf2fc08.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="Assets/CSS/styles.css">
+
+</head>
+<body>
+<header>
+  <!--Barra de Navegacion-->
+    <nav class="navbar navbar-expand-lg bg-black fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="Assets/IMG/APLogo-20-20.png" alt="Logo Argentina Progrma" width="15%" height="">
+              </a>
+              <ul class="list-group list-group-horizontal">
+              <li class="list-group-item"><i class="fa-brands fa-instagram fa-xl text-white"></i></li>
+              <li class="list-group-item"><i class="fa-brands fa-linkedin fa-xl text-white"></i></li>
+              <li class="list-group-item"><i class="fa-solid fa-envelope fa-xl text-white"></i></li>
+              <!-- Boton de Login -->
+              <li class="list-group-item">
+                <i class="fa-solid fa-user-lock fa-xl text-white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                </i>
+            </li>
+        </ul>
+</header>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <div class="mb-3 row">
+              <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="staticEmail" value="email@dominio.com">
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword">
+              </div>
+            </div>
+      </div>
+      <div class="modal-footer">
+
+        <button type="button" class="btn btn-primary">Iniciar Sesión</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <!--Presentacion Breve-->
+    <section id="sobre-mi" class="about">
+      <div class="datos">
+    <div class="container">
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="col-3">
+          <img src="Assets/IMG/Screenshot_20221124-100440_Gallery.jpg" class="rounded-circle w-75" alt="..." title="...">
+        </div>
+        
+        <div class="col-6 ">
+          <h2 class="text-white text-left intro "><I><b>¡Hola! mi nombre es</b></I></h2>
+          <h1 class="text-white text-left"><b>MANUELA UBEDA</b></h1>
+          <h2 class="text-white text-left "><I><b>Developer Full Stack Jr.</b></I></h2>
+        </div>
+      
+        <div class="col-1"> 
+        </div>
+    </div>
+  </div>
+  </div>
+  </section>
+    <!--Experiencia Laboral-->
+   <section  class="experiencia">
+        <div class="experiencialaboral"><h2 class="text-center text-white">EXPERIENCIA LABORAL</h2></div>
+        <div class="primerexperiencia">
+          <img src="Assets/IMG/logo lui wines.png" class="rounded-circle " alt="..." title="Logo lui wines">
+          <h3 class=" text-white">Prácticas Profesionalizantes</h3>
+          <p class="text-white">Prácticas profesionalizantes con Lui Wines, quienes elaboran sus vinos en la Bodega San Huberto ubicada en Luján de Cuyo, Mendoza (Argentina).</p>
+          <p class="text-white"> Desde el 14/03/2022 hasta el 08/04/2022.</p>
+      </div>
+      <div class="segundaexperiencia">
+        <img src="Assets/IMG/Logo Bike Club Mendoza.jpg" class="rounded-circle " alt="..." title="Logo Bike Club Mnedoza">
+        <h3 class=" text-white">Creación y Manejo de Redes Sociales</h3>
+        <p class="text-white">Diseño del la marca, creación y manejo de redes sociales.</p>
+        <p class="text-white"> Desde Noviembre del 2020 hasta Marzo del 2021.</p>
+    </div>
+    </section>
+    <!--Formacion Academica-->
+    <section class="formacion">
+      <div class="formacionacademica"><h2 class="text-center">FORMACIÓN ACADÉMICA</h2></div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-85">
+          <img src="Assets/IMG/Certificado seProgramar.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Técnicatura en Técnologia de los Alimentos</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Líceo Agricola y Enologíco D.F.S.</h6>
+            <p class="card-text">2017 - 2022</p>
+            </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-85">
+          <img src="Assets/IMG/Certificado seProgramar.jpg" class="card-img-top" alt="Certificado Se Programar">
+          <div class="card-body">
+            <h5 class="card-title">Argentina Programa: #SéProgramar</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Primera Etapa de Argentina Programa</h6>
+            <p class="card-text">2022</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Barras de Progreso-->
+  <section class="barrasdeprogreso">
+    <div class="titulodeseccion"><h2 class="text-center text-white">HARD & SOFT SKILLS</h2></div>
+    <div class="container">
+      <div class="row-12">
+        <div class="col">
+           <div class="primeratarjeta">
+             <div class="card h-15">
+              <div class="card-body">
+              <h5 class="card-title">HTML</h5>
+              <div class="progress">
+               <div class="progress-bar bg-black" role="progressbar" aria-label="Example with label" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
+              </div>
+              </div>
+              </div>
+             </div>
+             <div class="segundatarjeta">
+              <div class="card h-15">
+               <div class="card-body">
+               <h5 class="card-title">CSS</h5>
+               <div class="progress">
+                <div class="progress-bar bg-black" role="progressbar" aria-label="Example with label" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
+               </div>
+               </div>
+               </div>
+              </div>
+              <div class="terceratarjeta">
+                <div class="card h-15">
+                 <div class="card-body">
+                 <h5 class="card-title">INGLES</h5>
+                 <div class="progress">
+                  <div class="progress-bar bg-black" role="progressbar" aria-label="Example with label" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
+                 </div>
+                 </div>
+                 </div>
+                </div>
+            </div>
+          </div>
+        </div>
+  </section>
+<!--Proyectos-->
+<section class="misproyectos">
+  <div class="titulodeseccion">
+    <h2 class="text-center">PROYECTOS</h2>
+  </div>
+  <div class="card" style="width: 20rem;">
+    <img src="Assets/IMG/Imagen de Mi Portfolio Web.jpg" class="card-img-top" alt="Mi Portfolio Web">
+    <div class="card-body">
+      <h5 class="card-title">Portfolio Web</h5>
+      <p class="card-text">Realice este proyecto a traves del curso de Programación de Argentina Programa</p>
+      <p>2022</p>
+      <a href="#" class="btn btn-primary">Visitar Sitio</a>
+    </div>
+  </div>
+</section>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>

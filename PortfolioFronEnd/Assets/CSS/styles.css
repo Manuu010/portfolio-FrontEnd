@@ -1,0 +1,179 @@
+
+.bg-black{
+    background-color: #000000;
+}
+.list-group{
+    --bs-list-group-bg:transparent;
+}
+.fa-brands.fa-instagram.fa-xl:hover{
+    --bs-text-opacity: 1;
+    color:  #DD2A7B !important;
+}
+.fa-brands.fa-linkedin.fa-xl:hover {
+    --bs-text-opacity: 1;
+    color:  #0077B5 !important;
+}
+.fa-solid.fa-envelope:hover {
+    --bs-text-opacity: 1;
+    color:  #b50000 !important;
+}
+.fa-solid.fa-user-lock:hover{
+    --bs-text-opacity: 1;
+    color:  rgb(11, 180, 11) !important;
+}
+
+
+section.about{
+    background-image: url(../IMG/OceanImageBank_LewisBurnett_01.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-color: #000000;
+    
+    
+}
+.about img{
+    margin-top: 10rem;
+    margin-left: 23%;
+}
+
+
+.datos h1{
+    text-shadow: 4px 4px #111;
+    font-size:3.5rem;         
+                 
+}
+h2.intro{
+    margin-top: 10rem;
+}
+.datos h2{
+    font-size: 2rem;
+    text-shadow: 1px 3px #111;
+}
+section.experiencia{
+    padding-top: 2rem;
+    background-color: #000000;
+    padding-bottom: 6rem;
+}
+.primerexperiencia img{
+    width: 200px;
+    float: left;
+    margin-right: 15px;
+    margin-left: 50px;
+}
+.primerexperiencia {
+text-align: justify;
+margin-top: 50px;
+margin-right: 50px;
+}
+.segundaexperiencia img {
+ width: 200px;
+ float: left;
+ margin-right: 15px;
+ margin-left: 50px;
+}
+.segundaexperiencia{
+    text-align: justify;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.formacionacademica{
+    
+    font-size: 2.5rem;
+}
+section.formacion{
+    padding-top: 2rem;
+    background-color: white;
+    padding-bottom: 8%;
+}
+.formacion h3{
+
+    font-size: 1.5rem;
+}
+.row{
+    margin-top: 1rem;
+    justify-content: center;
+    
+}
+.card{
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%)
+}
+.card img{
+    width: 100%;
+}
+.card-body{
+    text-align: center;
+}
+section.barrasdeprogreso{
+    padding-top: 2rem;
+    justify-content: center;
+    background-color: #000000;
+    padding-bottom: 10%;
+}
+.progress-bar{
+    width: 50%;
+    
+}
+.primeratarjeta {
+    width: 50%;
+    height: 1rem;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 1.5rem;
+}
+.segundatarjeta {
+    width: 50%;
+    height: 1rem;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5rem;
+}
+.terceratarjeta {
+    width: 50%;
+    height: 1rem;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5rem;
+    
+}
+section.misproyectos{
+    background-color: white;
+    padding-top: 2rem;
+    padding-bottom: 3%;
+}
+.titulodeseccion h2{
+    padding-top: 2%;
+    font-size: 1.8rem;
+}
+section.misproyectos .card{
+    margin: 0 auto;
+    margin-top: 1.5rem;
+}
+section.dashboard{
+    background-color: white;
+    margin-top: 110px;
+    padding-top: 1rem;
+    
+}
+.botonguardado{
+    margin-top: 0.5rem;
+    
+}
+.titulocambio{
+    text-align: left;
+}
+.nav-link {
+   color: black;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: #141619;
+}
+.nav-link:focus, .nav-link:hover {
+    color: grey;
+}
